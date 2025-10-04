@@ -1,6 +1,6 @@
 
 header {
-    font-family:Alan Sans ;
+    font-family:League Gothic ;
     font-size:30px;
     color:rgb(39, 139, 245) ;
     margin: 50px;
@@ -8,7 +8,7 @@ header {
 }
 
 body {
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:Zen Kaku Gothic New, sans-serif ;
     color: rgb(39, 139, 245);
     margin: 10px;
     padding: 10px;
