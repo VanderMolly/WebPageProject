@@ -1,0 +1,51 @@
+
+header {
+    font-family:Alan Sans ;
+    font-size:30px;
+    color:rgb(39, 139, 245) ;
+    margin: 50px;
+    
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgb(39, 139, 245);
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.aboutme ,.aboutme1, .aboutme2 {
+    color: rgb(39, 139, 245);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(39, 139, 245);
+    border-radius: 250px;
+    margin: 5px;
+    padding: 20px;
+    width: 65%;
+    font-size:20px
+
+}
+
+
+.headshot {
+    
+    border-radius:10% ;
+    width: 60%;
+    height: 30%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.logo {
+    float:right;
+    width:  30%;
+    height: 30%;
+    
+}
+
+footer{
+    margin: 20px;
+    font-size:20px;
+}
