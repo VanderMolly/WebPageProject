@@ -72,8 +72,12 @@ body {
     margin: auto;
 }
 
+
+
+
 .deswork {
     margin-left: 50px;
+    font-size:League Gothic;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(87, 203, 241);
@@ -83,10 +87,19 @@ body {
 }
 
 .mywork {
+    margin-left: 50px;
     display: flex;
     flex-wrap:wrap;
-    justify-content: center;
+    justify-content: left;
     gap: 20px;
+
+}
+
+.mywork img {
+    width: 200px;   
+    height: 200px;
+    object-fit: cover;
+   
 }
 
 .logo {
