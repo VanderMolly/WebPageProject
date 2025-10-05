@@ -18,6 +18,7 @@ body {
     margin: 10px;
     padding: 10px;
     background-color: aliceblue;
+    background-image: url(Background\ Image/Home.jpg);
 }
 
 .aboutme ,.aboutme1, .aboutme2 {
