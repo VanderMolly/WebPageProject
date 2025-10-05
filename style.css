@@ -77,13 +77,10 @@ body {
 
 .deswork {
     margin-left: 50px;
-    font-size:League Gothic;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(87, 203, 241);
-    border-radius: 250px;
-    width: 20%;
-    padding: 10px; 
+    font-family: League Gothic;
+
+
+
 }
 
 .mywork {
