@@ -1,8 +1,8 @@
 
 header {
     font-family:League Gothic ;
-    font-size:30px;
-    color:rgb(39, 139, 245) ;
+    font-size:80px;
+    color:rgb(87, 203, 241) ;
     margin: 50px;
     
 }
@@ -10,6 +10,9 @@ header {
 nav{
     font-family:Zen Kaku Gothic New, sans-serif ;
     color: rgb(39, 139, 245);
+    font-size: 30px;
+    list-style-type: none ; 
+
 }
 
 body {
