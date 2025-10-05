@@ -67,7 +67,7 @@ body {
     color: rgb(17, 119, 153);
     padding: 10px;
     background-color: aliceblue;
-    background-image: url(Background\ Image/Home.jpg);
+    background-image: url(Background/Home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
