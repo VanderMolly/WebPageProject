@@ -7,25 +7,40 @@ header {
     
 }
 
-nav{
+.navbar ul {
+
+ 
     font-family:Zen Kaku Gothic New, sans-serif ;
-    color: rgb(10, 171, 215);
+    text-align: center;
     font-size: 30px;
+
+    list-style-type: none;
+    color: rgb(10, 171, 215);
+    padding: 0px;
+    margin: 0px; 
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
 
-a{
+.navbar a{
     text-decoration: none;
     border-radius: 5px;
-    padding: 25px 10px 10px 10px
+    padding: 25px 10px 10px 10px;
     color: rgb(10, 171, 215);
+    display:block;
+   
     
 }
 
-ul{
-    list-style-type: none;
-    color: rgb(10, 171, 215);
+
+.navbar a:hover{
+    color: lightskyblue;
 }
+
+
 body {
     font-family:Zen Kaku Gothic New, sans-serif ;
     color: rgb(39, 139, 245);
