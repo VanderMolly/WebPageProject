@@ -7,6 +7,11 @@ header {
     
 }
 
+nav{
+    font-family:Zen Kaku Gothic New, sans-serif ;
+    color: rgb(39, 139, 245);
+}
+
 body {
     font-family:Zen Kaku Gothic New, sans-serif ;
     color: rgb(39, 139, 245);
