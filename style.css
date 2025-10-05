@@ -9,12 +9,20 @@ header {
 
 nav{
     font-family:Zen Kaku Gothic New, sans-serif ;
-    color: rgb(39, 139, 245);
+    color: rgb(10, 171, 215);
     font-size: 30px;
-    list-style-type: none ; 
 
 }
 
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 25px 10px 10px 10p
+}
+
+ul{
+    list-style-type: none;
+}
 body {
     font-family:Zen Kaku Gothic New, sans-serif ;
     color: rgb(39, 139, 245);
