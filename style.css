@@ -100,15 +100,19 @@ body {
 }
 
 .logo {
-    float:right;
-    width:  30%;
+    display: block;
+    width:30%;
     height: 30%;
-    
+    float:right;
+
 }
 
 footer{
     color: rgb(0, 82, 141);
     margin: 20px;
-    margin-top: 200px;
     font-size:20px;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
 }
