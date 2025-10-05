@@ -63,6 +63,7 @@ body {
     background-color: aliceblue;
     background-image: url(Background\ Image/Home.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -76,7 +77,8 @@ body {
 }
 
 footer{
+    color: rgb(0, 82, 141);
     margin: 20px;
-    margin-top: 235px;
+    margin-top: 200px;
     font-size:20px;
 }
