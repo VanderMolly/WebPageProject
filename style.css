@@ -1,9 +1,10 @@
 
-header {
+.welcome {
     font-family:League Gothic ;
-    font-size:80px;
+    font-size:100px;
     color:rgb(87, 203, 241) ;
-    margin: 50px;
+    margin: 100px;
+    margin-left:150px;
     
 }
 
@@ -18,10 +19,12 @@ header {
     color: rgb(10, 171, 215);
     padding: 0px;
     margin: 0px; 
+    
 
     display:flex;
     flex-direction: row;
     justify-content: center;
+
 
 }
 
@@ -51,10 +54,10 @@ body {
 }
 
 .aboutme ,.aboutme1, .aboutme2 {
-    color: rgb(39, 139, 245);
+    color: rgb(82, 141, 100);
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(39, 139, 245);
+    border-color: rgb(87, 203, 241);
     border-radius: 250px;
     margin: 5px;
     padding: 20px;
@@ -63,15 +66,6 @@ body {
 
 }
 
-
-.headshot {
-    
-    border-radius:10% ;
-    width: 60%;
-    height: 30%;
-    display: inline-block;
-    margin-bottom: 20px;
-}
 
 .logo {
     float:right;
