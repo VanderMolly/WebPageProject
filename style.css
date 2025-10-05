@@ -17,11 +17,14 @@ nav{
 a{
     text-decoration: none;
     border-radius: 5px;
-    padding: 25px 10px 10px 10p
+    padding: 25px 10px 10px 10px
+    color: rgb(10, 171, 215);
+    
 }
 
 ul{
     list-style-type: none;
+    color: rgb(10, 171, 215);
 }
 body {
     font-family:Zen Kaku Gothic New, sans-serif ;
