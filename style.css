@@ -1,12 +1,5 @@
 
-.welcome {
-    font-family:League Gothic ;
-    font-size:150px;
-    color:rgb(87, 203, 241) ;
-    margin-left: 100px;
-    margin-top: 150px;
-    
-}
+
 
 .navbar ul {
 
@@ -43,7 +36,7 @@
     color: lightskyblue;
 }
 
-.aboutme ,.aboutme1, .aboutme2 {
+.aboutme  {
     color: rgb(0, 82, 141);
     border-style: solid;
     border-width: 3px;
@@ -51,9 +44,21 @@
     border-radius: 250px;
     padding: 10px;
     width: 20%;
-    font-size:20px
+    font-size:20px;
+    margin-left:200px;
+    text-align: center;
+    margin-top: 50px;
    
 
+}
+
+.welcome {
+    font-family:League Gothic ;
+    font-size:150px;
+    color:rgb(87, 203, 241) ;
+    margin-left: 200px;
+    margin-top: 250px;
+    margin-bottom: 0px;
 }
 
 body {
@@ -64,6 +69,7 @@ body {
     background-image: url(Background\ Image/Home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: auto;
 }
 
 
