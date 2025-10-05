@@ -63,7 +63,7 @@
 
 body {
     font-family:Zen Kaku Gothic New, sans-serif ;
-    color: rgb(39, 139, 245);
+    color: rgb(17, 119, 153);
     padding: 10px;
     background-color: aliceblue;
     background-image: url(Background\ Image/Home.jpg);
@@ -72,8 +72,22 @@ body {
     margin: auto;
 }
 
+.deswork {
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(87, 203, 241);
+    border-radius: 250px;
+    width: 20%;
+    padding: 10px; 
+}
 
-
+.mywork {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
 .logo {
     float:right;
