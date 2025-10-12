@@ -44,6 +44,14 @@
     border-radius: 250px;
     padding: 10px;
     width: 30%;
+    /* commenting out because it's using constant px not relative values
+    font-size:30px;
+    margin-left:150px;
+    text-align: center;
+    margin-top: -15px;
+    */
+     /* Added by AA
+     scales with screen width */
     font-size: 2vw;        
     margin-left: 10%;
     margin-top: 2vh;
@@ -53,33 +61,40 @@
 
 .welcome {
     font-family:League Gothic ;
-   /* responsive font size based on viewport width */
+    /*font-size:9em; */
+    /* Added by AA */
+        /* responsive font size based on viewport width */
         font-size: 8vw;
         /* percentage instead of fixed px */
         margin-left: 10%;     
         /* responsive vertical spacing */
         margin-top: 15vh;      
         margin-bottom: 0;
+    
     color:rgb(87, 203, 241) ;
-
+    margin-left: 150px;
+    margin-top: 200px;
+    margin-bottom: 0px;
 }
 
 body {
     font-family:Zen Kaku Gothic New, sans-serif ;
     color: rgb(17, 119, 153);
-    padding: 10px;
     background-color: aliceblue;
     background-image: url(Background/Home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
     clear: right;
+    /* Added by AA:width:
+       remove any padding/margin
+       set relative height of 100%
+       keeps background fixed on scroll to avoid the white space */
     margin: 0;         
     padding: 0;
     height: 100%;
     background-attachment: fixed;
 }
-
 
 
 
@@ -115,18 +130,53 @@ body {
 .logo {
     display: block;
     width:30%;
-    height: 30%;
+    /*Added by AA
+    set height to auto to preserve ratio*/
+    height: auto;
     float:right;
-    margin-right: 100px;
-    margin-top: -200px;
+    /*Added by AA
+    set percentage-based margin 
+    relative spacing instead of fixed px */
+    margin-right: 10%;
+    margin-top: -8vw;
 }
 
 footer{
     color: rgb(0, 82, 141);
     margin: 20px;
-    font-size:20px;
+    /* Commenting out constant font size
+    font-size:20px; */
     position: fixed;
     left:0;
     bottom:0;
     width:100%;
+    /* Added by AA
+    responsive font size */
+    font-size: 2vw;       
+}
+
+
+/* Added by AA, this will be covered in Tuesday's class
+it is the way to ask the browser to adjust element sizes to fit a screen as it goes smaller 
+What I am saying below is, when the screen size is less than 600 px, then apply these sizes/CSS
+which will adjust things */
+/* Media query for very small screens */
+@media (max-width: 600px) {
+    .welcome {
+        font-size: 12vw;
+        margin-left: 5%;
+        margin-top: 10vh;
+    }
+
+    .logo {
+        width: 40%;
+        margin-right: 5%;
+        margin-top: -12vw;
+    }
+
+    .tomyport {
+        width: 60%;
+        font-size: 4vw;
+        margin-left: 5%;
+    }
 }
