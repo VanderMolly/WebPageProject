@@ -69,18 +69,36 @@ body {
     color: rgb(17, 119, 153);
     padding: 10px;
     background-color: aliceblue;
-    background-image: url(Background/Home.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: auto;
     clear: right;
     margin: 0;         
     padding: 0;
     height: 100%;
+
+}
+
+/*home page background*/
+.homebody {
+background-image: url(Background/Home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+/*projects page background*/
+.projectbody {
+    background-image: url(Background/Featured\ Work.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-
+/*about me page background*/
+.aboutbody {
+    background-image: url(Background/aboutbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
 /*works page display text*/
@@ -126,32 +144,61 @@ body {
 
 /*about me section*/
 
-.aboutme body {
-     background-image: url(Background/aboutbg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: auto;
-    margin: 0;         
-    padding: 0;
-    height: 100%;
-    background-attachment: fixed;
+.aboutme {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    align-items: center;
+
+
 }
+
+.left {
+    grid-column: 1 / 2;
+
+}
+.right {
+    grid-column: 2 / -1;
+}
+
 .aboutme img {
-    width:30%;
+    width:90%;
     height: auto;
+    padding: 10%; 
+    margin: -4vw;
+    margin-top: 4vw;
   
 }
 
 .aboutme p,h1 {
-    margin-left: 5%;
+    margin-left: 7%;
     margin-right: 5%;
+    
 }
 
 .aboutme h1
 {
     font-size: 5vw;
+    padding: .5vw;
+    font-family: League Gothic;
+    letter-spacing: .1vw;
 }
 
+.aboutme h2
+{
+    border-style:solid;
+    border-width: 3px;
+    border-color: rgb(87, 203, 241);
+    border-radius: 250px;
+    padding: .5vw;
+    padding-left: 2vw;
+    width: 50%;
+    margin-top: -4vh;
+    margin-left: 2vw;
+
+}
+
+/*footer*/
 
 footer{
     color: rgb(0, 82, 141);
