@@ -125,10 +125,15 @@ body {
 }
 
 /*about me section*/
-img.aboutme {
-    width: 20%;
-    height: 10%;
+.aboutme img {
+    width:30%;
+    height: auto;
   
+}
+
+.aboutme p,h1,h2 {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 footer{
