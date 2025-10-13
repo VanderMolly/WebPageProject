@@ -125,6 +125,11 @@ body {
 }
 
 /*about me section*/
+img.aboutme {
+    width: 20%;
+    height: 10%;
+  
+}
 
 footer{
     color: rgb(0, 82, 141);
