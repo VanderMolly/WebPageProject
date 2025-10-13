@@ -125,6 +125,17 @@ body {
 }
 
 /*about me section*/
+
+.aboutme body {
+     background-image: url(Background/aboutbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin: 0;         
+    padding: 0;
+    height: 100%;
+    background-attachment: fixed;
+}
 .aboutme img {
     width:30%;
     height: auto;
@@ -140,6 +151,7 @@ body {
 {
     font-size: 5vw;
 }
+
 
 footer{
     color: rgb(0, 82, 141);
