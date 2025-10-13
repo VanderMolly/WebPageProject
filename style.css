@@ -130,3 +130,24 @@ footer{
     bottom:0;
     width:100%;
 }
+
+/*--Added by Professor  below--*/
+@media (max-width: 600px) {
+    .welcome {
+        font-size: 12vw;
+        margin-left: 5%;
+        margin-top: 10vh;
+    }
+
+    .logo {
+        width: 40%;
+        margin-right: 5%;
+        margin-top: -12vw;
+    }
+
+    .tomyport {
+        width: 60%;
+        font-size: 4vw;
+        margin-left: 5%;
+    }
+}
