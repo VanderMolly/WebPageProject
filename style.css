@@ -131,9 +131,14 @@ body {
   
 }
 
-.aboutme p,h1,h2 {
+.aboutme p,h1 {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.aboutme h1
+{
+    font-size: 5vw;
 }
 
 footer{
