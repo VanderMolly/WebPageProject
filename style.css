@@ -1,6 +1,6 @@
 
 
-
+/*navigation bar*/
 .navbar ul {
 
  
@@ -35,7 +35,7 @@
 .navbar a:hover{
     color: lightskyblue;
 }
-
+/*home page to my portfolio text under welcome*/
 .tomyport  {
     color: rgb(0, 82, 141);
     border-style: solid;
@@ -50,7 +50,7 @@
    
 
 }
-
+/*home page welcome text*/
 .welcome {
     font-family:League Gothic ;
    /* responsive font size based on viewport width */
@@ -83,7 +83,7 @@ body {
 
 
 
-
+/*works page display text*/
 .deswork {
     margin-left: 100px;
     font-family: League Gothic;
@@ -92,6 +92,7 @@ body {
 
 }
 
+/*design work gallery*/
 .mywork {
     margin-left: 50px;
     margin:auto;
@@ -104,6 +105,7 @@ body {
 
 }
 
+
 .mywork img {
     width: 25%;   
     height: 25%;
@@ -112,6 +114,7 @@ body {
    
 }
 
+/*home page logo*/
 .logo {
     display: block;
     width:30%;
@@ -120,6 +123,8 @@ body {
     margin-right: 10%;
     margin-top: -8vw;
 }
+
+/*about me section*/
 
 footer{
     color: rgb(0, 82, 141);
