@@ -14,6 +14,7 @@ margin: 0;
     font-size: 30px;
 
     list-style-type: none;
+
     color: rgb(10, 171, 215);
     padding: 0px;
     margin: 0px; 
@@ -192,12 +193,13 @@ background-image: url(Background/Home.jpg);
 /*footer*/
 
 footer{
-    color: rgb(0, 82, 141);
-    margin: 20px;
-    font-size:10px;
     position: fixed;
-    left:0;
-    bottom:0;   
+    left: 5px;
+    bottom: 0;   
+    width: 100%;
+    color: rgb(0, 82, 141);
+    font-size:10px;
+
 }
 
 /*--Added by Professor  below--*/
