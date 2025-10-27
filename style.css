@@ -109,6 +109,8 @@ background-image: url(Background/Home.jpg);
 
 /*works page display text*/
 .deswork {
+    font-size: 3vw;
+    padding: 1vw;
     margin-left: 100px;
     font-family: League Gothic;
 }
