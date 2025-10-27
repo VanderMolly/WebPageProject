@@ -183,8 +183,8 @@ background-image: url(Background/Home.jpg);
 
 .aboutme h1
 {
-    font-size: 5vw;
-    padding: .5vw;
+    font-size: 10vw;
+    padding: 3vw;
     font-family: League Gothic;
     letter-spacing: .1vw;
 }
@@ -208,11 +208,11 @@ background-image: url(Background/Home.jpg);
 footer{
     color: rgb(0, 82, 141);
     margin: 20px;
-    font-size:1.5vw;
+    font-size:10px;
     position: fixed;
     left:0;
     bottom:0;
-    width:100%;
+   
 }
 
 /*--Added by Professor  below--*/
