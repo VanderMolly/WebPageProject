@@ -110,9 +110,6 @@ background-image: url(Background/Home.jpg);
 .deswork {
     margin-left: 100px;
     font-family: League Gothic;
-
-
-
 }
 
 /*design work gallery*/
@@ -124,8 +121,6 @@ background-image: url(Background/Home.jpg);
     justify-content: center;
     align-content: left;
     gap: 20px;
-
-
 }
 
 
@@ -133,8 +128,6 @@ background-image: url(Background/Home.jpg);
     width: 25%;   
     height: 25%;
     object-fit: cover;
-
-   
 }
 
 /*home page logo*/
@@ -154,13 +147,10 @@ background-image: url(Background/Home.jpg);
     grid-template-columns: 1fr 1fr;
     gap:10px;
     align-items: center;
-
-
 }
 
 .left {
     grid-column: 1 / 2;
-
 }
 .right {
     grid-column: 2 / -1;
@@ -172,13 +162,12 @@ background-image: url(Background/Home.jpg);
     padding: 10%; 
     margin: -4vw;
     margin-top: 4vw;
-  
 }
 
-.aboutme p,h1 {
+.aboutme p {
     margin-left: 7%;
     margin-right: 5%;
-    
+    padding-top:1vw;
 }
 
 .aboutme h1
@@ -191,16 +180,13 @@ background-image: url(Background/Home.jpg);
 
 .aboutme h2
 {
-    border-style:solid;
-    border-width: 3px;
-    border-color: rgb(87, 203, 241);
+    border: 3px solid rgb(87, 203, 241);
     border-radius: 250px;
     padding: .5vw;
     padding-left: 2vw;
     width: 50%;
     margin-top: -4vh;
-    margin-left: 2vw;
-
+    margin-left: 5vw;
 }
 
 /*footer*/
@@ -211,8 +197,7 @@ footer{
     font-size:10px;
     position: fixed;
     left:0;
-    bottom:0;
-   
+    bottom:0;   
 }
 
 /*--Added by Professor  below--*/
