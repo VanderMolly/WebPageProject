@@ -43,11 +43,12 @@ margin: 0;
     border-width: 3px;
     border-color: rgb(87, 203, 241);
     border-radius: 250px;
-    padding: 8px;
+    padding: 10px;
+    padding-left:20px;
     width: 30%;
     font-size: 2vw;        
     margin-left: 10%;
-    margin-top: -1vh;
+    margin-top: -2vh;
    
 
 }
@@ -135,7 +136,7 @@ background-image: url(Background/Home.jpg);
     height: auto;
     float:right;
     margin-right: 10%;
-    margin-top: -8vw;
+    margin-top: -15vw;
 }
 
 /*about me section*/
@@ -199,14 +200,12 @@ footer{
 
 }
 
+/* navbar media query */
 @media only screen and (max-width: 480px) {
     .navbar ul {
-        font-size: 5vw;
-        padding: 10px;
+        font-size: 4vw;
         display: block;
     }
-
-    
 }
 
 /*--Added by Professor  below--*/
@@ -227,5 +226,35 @@ footer{
         width: 45%;
         font-size: 4vw;
         margin-left: 5%;
+        margin-top: 1vh;
+        padding: 5px;
     }
+
+    .aboutme p {
+    font-size: 10px;
+    margin-left: 7%;
+    margin-right: 5%;
+    padding-top:1vw;
+}
+
+.aboutme h1
+{
+    font-size: 8vw;
+    padding: 3vw;
+    font-family: League Gothic;
+    letter-spacing: .1vw;
+}
+
+.aboutme h2
+{
+    font-size: 3vw;
+    border: 1px solid rgb(87, 203, 241);
+    border-radius: 250px;
+    padding: .5vw;
+    padding-left: 2vw;
+    width: 50%;
+    margin-top: -1vh;
+    margin-left: 3vw;
+}
+
 }
