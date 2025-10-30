@@ -27,8 +27,8 @@ margin: 0;
 .navbar a{
     text-decoration: none;
     border-radius: 5px;
-    padding: 25px 10px 10px 10px;
-    color: rgb(10, 171, 215);
+    padding: 25px 30px 30px 10px;
+    color: rgb(19, 140, 173);
     display:block;
    
 }
