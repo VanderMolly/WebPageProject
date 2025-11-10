@@ -220,7 +220,7 @@ footer{
     grid-template-columns: 1fr 1fr;
     gap:10px;
     align-items: center;
-    padding: 5vw;
+    margin-top: 10vw;
 }
 
 .leftc {
@@ -239,6 +239,7 @@ footer{
     border: 3px solid rgb(87, 203, 241);
     border-radius: 250px;
     width: 50%;
+    margin-left: 25vw;
     font-size: 10vw;
     text-align: center;
     color: #57CBF1;
