@@ -102,6 +102,14 @@ background-image: url(Background/Home.jpg);
     background-attachment: fixed;
 }
 
+/* contact page background*/
+.contactbody {
+    background-image: url(Background/Contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
 /*works page display text*/
 .deswork {
