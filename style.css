@@ -220,7 +220,7 @@ footer{
     grid-template-columns: 1fr 1fr;
     gap:10px;
     align-items: center;
-    margin-top: 10vw;
+    margin-top: 5vw;
 }
 
 .leftc {
@@ -245,6 +245,7 @@ footer{
     color: #57CBF1;
     font-family: League Gothic;
     letter-spacing: .1vw;
+    margin-top: 5vw;
 }
 
 .contactbody .cleft {
