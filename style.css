@@ -208,6 +208,52 @@ footer{
 
 }
 
+/*contact me*/
+
+.contactbody img {
+    width: 20%;
+    height: auto;
+}
+
+.cgrid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+    align-items: center;
+}
+
+.leftc {
+    grid-column: 1 / 2;
+  
+
+}
+
+.rightc {
+    grid-column: 2 / -1;
+}
+
+
+
+.contactbody h1{
+    font-size: 10vw;
+    text-align: center;
+    color: #57CBF1;
+    padding: 3vw;
+    font-family: League Gothic;
+    letter-spacing: .1vw;
+}
+
+.contactbody ul {
+      margin-left: 25vw;
+}
+
+.contactbody img {
+       margin-left: 5vw;
+}
+
+
+
+
 /* navbar media query */
 @media only screen and (max-width: 480px) {
     .navbar ul {
